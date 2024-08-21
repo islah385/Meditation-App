@@ -32,7 +32,7 @@ class MainPage extends StatelessWidget {
               ),
               _rowIconContainer(iconL: 'assets/images/ying-yang.png',iconN: 'Calm'),
               _rowIconContainer(iconL: 'assets/images/triskele.png', iconN: 'Relax'),
-              _rowIconContainer(iconL: 'assets/images/', iconN: iconN)
+              _rowIconContainer(iconL: 'assets/images/yogo.png', iconN: 'Focus')
             ],
           ),
         ),
