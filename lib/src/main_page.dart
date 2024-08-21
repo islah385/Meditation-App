@@ -28,6 +28,8 @@ class MainPage extends StatelessWidget {
                     fontFamily: 'Merriweather'),
               ),
               const SizedBox(
+
+                
                 height: 30,
               ),
               _rowIconContainer(iconL: 'assets/images/ying-yang.png',iconN: 'Calm'),
