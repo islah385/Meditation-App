@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app/utils/constants.dart';
 
-// ignore: must_be_immutable
+
 class FirstButtonCustom extends StatelessWidget {
   String bName;
-  void Function() onTap;
+  void Function()? onTap;
 
   FirstButtonCustom({
     super.key,
@@ -27,7 +27,7 @@ class FirstButtonCustom extends StatelessWidget {
                 borderRadius: BorderRadius.circular(10))),
         child: Text(
           bName,
-          style: const TextStyle(color: Colors.white, fontSize: 30),
+          style: TextStyle(color: Colors.white, fontSize: 30),
         ),
       ),
     );

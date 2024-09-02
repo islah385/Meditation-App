@@ -92,13 +92,11 @@ class SignupPage extends StatelessWidget {
                 FirstButtonCustom(
                     bName: 'SIGNUP',
                     onTap: () {
-                      Navigator.pushAndRemoveUntil(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => BotttomNavigationBar(),
-                        ),
-                        (route) => false,
-                      );
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => BotttomNavigationBar(),
+                          ));
                     }),
                 SizedBox(
                   height: 10,
